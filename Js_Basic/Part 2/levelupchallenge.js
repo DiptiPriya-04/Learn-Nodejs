@@ -36,7 +36,7 @@ if(Tea === "black tea"){
 }
     preferredtea.push(Tea)
 }
-console.log(preferredtea);
+// console.log(preferredtea);
 
 //Question 04
 
@@ -82,8 +82,8 @@ let availableteas = []
     {
       return;
     }
-    availableteas.push(tea);
-    console.log(availableteas);
+    // availableteas.push(tea);
+    // console.log(availableteas);
  });
 
  //Question 07
@@ -93,6 +93,27 @@ let availableteas = []
     if(citie == 'Sydney'){
         return;
     }
-    traveledcities.push(citie)
-    console.log(traveledcities)
+    // traveledcities.push(citie)
+    // console.log(traveledcities)
   });
+
+  //Question 08
+  let arr = [2,5,7,9]
+  for(let i = 0 ; i < arr.length; i++){
+    if(arr[i] == '7'){
+        continue;
+    }
+    let doubleNumber = 2 * arr[i];
+    console.log(doubleNumber);
+  }
+
+  //Question 10
+let tea = ["chai","green tea","herbal tea","jasmine tea","black tea"]
+ for (const teasize of tea) {
+    if(teasize.length > 10){
+        break;
+    }
+    let shortteas = teasize;
+    console.log(shortteas);
+    
+ };
