@@ -24,9 +24,14 @@ console.log(`sum of two number sum3 ${sum3}`);
 /* WHY NODE?
  - Fast execution (V8 engine).
  - Non-blocking async code → handles thousands of requests at once.
- - Huge ecosystem via npm.
- - Perfect for APIs, real-time apps, microservices.
-*/
+ - Huge ecosystem via npm.(node package manager)
+ - Perfect for APIs, real-time apps, microservices*/
 
+ /*Types of Modules:
+1. Built‑in Modules (fs, http, path, os, etc.)
+2. Local Modules (files created inside the project)
+3. Third‑party Modules (installed via npm)
 
-
+CommonJS Syntax:
+- require() → used to import modules
+- module.exports → used to export modules*/
