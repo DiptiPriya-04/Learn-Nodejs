@@ -3,3 +3,4 @@ node_modules/
 
 # In case some node_modules are inside nested folders
 **/node_modules/**
+.env
