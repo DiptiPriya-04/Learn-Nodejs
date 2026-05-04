@@ -1,8 +1,8 @@
 > > ------JavaScript & Node.js Learning Notes-------<<
 
-This repository contains my personal notes and practice code while learning JavaScript and Node.js.
+This repository contains my personal notes and practice code while learning JavaScript, Node.js, Express, and Database concepts.
 
-I am currently learning the fundamentals of JavaScript and gradually moving towards backend development using Node.js and Express by building small projects and understanding core concepts.
+I am currently focusing on building strong fundamentals and moving towards backend development by implementing real-world concepts step by step.
 
 ---
 
@@ -18,7 +18,7 @@ I am currently learning the fundamentals of JavaScript and gradually moving towa
 * Arrow Functions
 * Arrays
 * High Order Array Methods (map, forEach)
-* DOM Basics
+* DOM 
 
 ### Node.js
 
@@ -35,6 +35,14 @@ I am currently learning the fundamentals of JavaScript and gradually moving towa
 * Middleware (built-in & custom)
 * JSON handling
 * Basic server architecture
+
+### Database (Drizzle + Docker)
+
+* Database connection setup
+* Schema creation using Drizzle ORM
+* Query handling
+* Environment configuration (.env)
+* Docker setup for database services
 
 ---
 
@@ -70,12 +78,23 @@ I am currently learning the fundamentals of JavaScript and gradually moving towa
 
 ---
 
-## 🎯 Current Focus
+### 03_MVC → MVC Architecture Implementation
 
-* Strengthening JavaScript fundamentals
-* Understanding backend flow (Request → Response)
-* Building APIs using Express.js
-* Writing clean and structured code
+* DB/ → Database-related logic
+* Routes/ → API route handling
+* Index.js → Entry point using MVC structure
+
+---
+
+### 04_DataBase → Database Integration (Drizzle + Docker)
+
+* db/ → Database connection and setup
+* drizzle/ → Schema and ORM configuration
+* drizzle.config.js → Drizzle configuration
+* docker-compose.yml → Docker setup for database
+* index.js → Main database integration file
+* package.json → Dependencies
+* .env → Environment variables (not pushed in repo)
 
 ---
 
@@ -85,5 +104,8 @@ I am currently learning the fundamentals of JavaScript and gradually moving towa
 * Learn authentication (JWT)
 * Connect frontend with backend
 * Deploy projects on cloud platforms
+* Build real-world scalable backend systems
 
 ---
+
+This repository is part of my continuous learning journey and will be updated regularly as I explore more advanced backend and full-stack concepts.
