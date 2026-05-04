@@ -48,7 +48,6 @@ app.get('/books/:id',(req,res)=>{
 //global middleware: This type of middleware is executed for every incoming request to the application. 
 // It is defined using app.use() and can be used for tasks such as logging, authentication, and error handling.
 
-
 //route-specific middleware: This type of middleware is executed only for specific routes. 
 // It is defined using app.METHOD() (where METHOD is the HTTP method such as GET, POST, etc.)
 //  and can be used for tasks such as validating request parameters or checking user permissions for a specific route.
@@ -60,7 +59,10 @@ app.get('/books/:id',(req,res)=>{
 // It is defined using app.use() and has a specific signature that includes an additional error parameter (err, req, res, next).
 // It can be used to catch and handle errors in a centralized manner, allowing for better error management and response formatting.
 
-
-//custom middleware: This type of middleware is created by the developer to perform specific tasks that are not covered by the built-in middleware functions.
+//Custom middleware: This type of middleware is created by the developer to perform specific tasks that are not covered by the built-in middleware functions.
 // It can be used for tasks such as custom authentication, logging, or any other functionality that is specific to the application’s needs.
+
+// Build In Middleware: Express.js provides several built-in middleware functions that can be used to handle common tasks in web applications.
+//  Some of the commonly used built-in middleware functions include:
+// exmp :- express.json(): This middleware is used to parse incoming request bodies in JSON format and make it available in req.body.
 
