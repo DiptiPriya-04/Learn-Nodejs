@@ -51,7 +51,6 @@
 // Delete /books/:id - delete a book by id
 
 const express = require('express');
-
 const app = express();
 
 const PORT = 8000;
@@ -80,11 +79,11 @@ app.get('/books/:id',(req,res)=>{ // book/ id can be dynamic can be anything
     return res.json(book);
 });
 
-// app.get('/books',(req,res)=>{
-//     // res.end("book added")--> this is text respond but prefer json 
-//     res.setHeader('x-dip','dipti priya'); // custom header
-//     res.json(books); // json is a key value 
-// });
+app.get('/books',(req,res)=>{
+    // res.end("book added")--> this is text respond but prefer json 
+    res.setHeader('x-dip','dipti priya'); // custom header
+    res.json(books); // json is a key value 
+});
 
 
  app.post('/books',(req,res)=>{
@@ -109,7 +108,7 @@ app.get('/books/:id',(req,res)=>{ // book/ id can be dynamic can be anything
     return res.status(200).json({message: `Book with id ${id} deleted successfully`});
  });
 
-
+app.use('/books', bookRouter); // this is the middleware which will use the bookRouter for all the routes starting with /books
 
  app.listen(PORT,()=>{
     console.log(`Server is running on port ${PORT}`);
