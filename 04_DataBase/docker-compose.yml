@@ -1,0 +1,16 @@
+# Docker is the containerization platform that allows you to run applications in isolated environments called containers.
+# A docker-compose.yml file is used to define and manage multi-container Docker applications. 
+# It allows you to specify the services, networks, and volumes for your application in a single file.
+
+services:
+  postgres:
+    image: postgres:17.4
+    ports:
+    - 5432:5432
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      
+# to run this compose.yml file we used docker compose up -d (-d for running in background) 
+# and to stop we did docker compose down 
