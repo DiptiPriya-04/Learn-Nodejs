@@ -1,4 +1,4 @@
-# >>------JavaScript, Node.js & Backend Learning Notes-------<<
+# >>---JavaScript, Node.js & Backend Learning Notes---<<
 
 This repository contains my personal notes, practice code, and backend development exercises while learning JavaScript, Node.js, Express.js, Database concepts, and Authentication.
 
