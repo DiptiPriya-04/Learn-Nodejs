@@ -1,14 +1,11 @@
-> > ------JavaScript & Node.js Learning Notes-------<<
+# >>------JavaScript, Node.js & Backend Learning Notes-------<<
 
-This repository contains my personal notes and practice code while learning JavaScript, Node.js, Express, and Database concepts.
+This repository contains my personal notes, practice code, and backend development exercises while learning JavaScript, Node.js, Express.js, Database concepts, and Authentication.
 
-I am currently focusing on building strong fundamentals and moving towards backend development by implementing real-world concepts step by step.
+I am currently focusing on building strong fundamentals and gradually moving towards full-stack development by implementing real-world backend concepts step by step.
 
 ---
-
-## 🚀 Topics Covered
-
-### JavaScript
+## JavaScript
 
 * Variables (var, let, const)
 * Data Types
@@ -18,94 +15,155 @@ I am currently focusing on building strong fundamentals and moving towards backe
 * Arrow Functions
 * Arrays
 * High Order Array Methods (map, forEach)
-* DOM 
-
-### Node.js
-
-* Node.js Basics
-* File System (fs module)
-* Events module
-* HTTP module (basic server creation)
-
-### Express.js
-
-* Express setup
-* Routing
-* REST APIs
-* Middleware (built-in & custom)
-* JSON handling
-* Basic server architecture
-
-### Database (Drizzle + Docker)
-
-* Database connection setup
-* Schema creation using Drizzle ORM
-* Query handling
-* Environment configuration (.env)
-* Docker setup for database services
+* DOM Manipulation
 
 ---
 
-## 📁 Folder Structure
+## Node.js
 
-### 00_Js_Basic → Fundamental JavaScript Concepts
+* Node.js Basics
+* File System (fs module)
+* Events Module
+* HTTP Module
+* Module System
+* Package Management (npm)
 
-* part1 → Basic JavaScript concepts and examples
+---
+
+## Express.js
+
+* Express Setup
+* Routing
+* REST APIs
+* Middleware
+* Custom Middleware
+* Request & Response Handling
+* JSON Handling
+* Backend Project Structure
+
+---
+
+## MVC Architecture
+
+* Models
+* Routes
+* Controllers
+* Separation of Concerns
+* Project Structuring
+
+---
+
+## Database (Drizzle ORM + Docker)
+
+* Database Connection Setup
+* Schema Design
+* Query Handling
+* Environment Variables
+* Docker Configuration
+* Drizzle ORM Configuration
+
+---
+
+## Authentication
+
+* Authentication Fundamentals
+* Stateful Session Authentication
+* Authentication Flow & Concepts
+* Backend Security Basics
+
+---
+
+# 📁 Folder Structure
+
+## 00_Js_Basic → Fundamental JavaScript Concepts
+
+* part1 → JavaScript basics and syntax
 * part2 → Functions, loops, and problem solving
-* part3 → Practice exercises and additional concepts
+* part3 → Practice exercises and advanced concepts
 * Notes → Detailed notes (HTML + JS)
 
 ---
 
-### 01_Learn_Node → Node.js Learning
+## 01_Learn_Node → Node.js Learning
 
 * 0_node.js → Introduction to Node.js
 * 1_fs.js → File System module
 * 2_events.js → Events module
-* 3_HTTP → HTTP module practice (basic server)
+* 3_HTTP → HTTP server creation and practice
 
 ---
 
-### 02_express → Express.js Backend Development
+## 02_express → Express.js Backend Development
 
-* 0_basic.js → Basic Express server setup
+* 0_basic.js → Express fundamentals
 * 1_restapi.js → REST API implementation
-* 2_middleware.js → Middleware concepts (global & custom)
-* 3_custom.js → Custom middleware & advanced usage
-* math.js → Utility module used in routes
-* package.json → Project dependencies
+* 2_middleware.js → Middleware concepts
+* 3_custom.js → Custom middleware examples
+* math.js → Utility module
+* package.json → Dependencies
 * package-lock.json → Dependency lock file
 
 ---
 
-### 03_MVC → MVC Architecture Implementation
+## 03_MVC → MVC Architecture
 
 * DB/ → Database-related logic
-* Routes/ → API route handling
-* Index.js → Entry point using MVC structure
+* Routes/ → Route handling
+* Index.js → Application entry point
 
 ---
 
-### 04_DataBase → Database Integration (Drizzle + Docker)
+## 04_DataBase → Drizzle ORM & Docker
 
-* db/ → Database connection and setup
-* drizzle/ → Schema and ORM configuration
-* drizzle.config.js → Drizzle configuration
-* docker-compose.yml → Docker setup for database
-* index.js → Main database integration file
+* db/ → Database connection setup
+* drizzle/ → Schema definitions
+* drizzle.config.js → ORM configuration
+* docker-compose.yml → Docker database setup
+* index.js → Database integration
 * package.json → Dependencies
-* .env → Environment variables (not pushed in repo)
 
 ---
 
-## 📌 Future Goals
+## 05_auth → Authentication
 
-* Build full-stack MERN applications
-* Learn authentication (JWT)
-* Connect frontend with backend
-* Deploy projects on cloud platforms
-* Build real-world scalable backend systems
+### 1_auth
+
+* package.json → Authentication project setup
+* package-lock.json → Dependency lock file
+* index.js → Authentication server implementation
+* analogy.txt → Authentication concept notes
+* .gitignore → Ignored files configuration
+
+### 2_statefull_session
+
+* Stateful session authentication implementation
+* Session management concepts
+* User session handling
 
 ---
 
-This repository is part of my continuous learning journey and will be updated regularly as I explore more advanced backend and full-stack concepts.
+# 🎯 Learning Journey
+
+This repository documents my journey from JavaScript fundamentals to backend development using:
+
+* JavaScript
+* Node.js
+* Express.js
+* MVC Architecture
+* Databases
+* Authentication
+
+and will continue to grow as I learn advanced backend and full-stack development concepts.
+
+---
+
+# 📌 Upcoming Topics
+
+* JWT Authentication
+* Authorization
+* Cookies & Sessions
+* MongoDB
+* PostgreSQL
+* MERN Stack Projects
+* API Security
+* Deployment & DevOps
