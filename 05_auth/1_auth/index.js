@@ -72,4 +72,4 @@ app.post('/private-car',(req,res)=>{
 });
 
 app.listen(PORT,()=>console.log(`server started on PORT ${PORT}`));
- 
+ console.log("Server is running on port: ", PORT);
